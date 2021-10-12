@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.game-field-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    height: 397px;
+
+    padding: 60px;
+}
+
+.choices-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 397px;
+
+    padding: 60px;
+}
+
+.choice{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 12px;
+    height: 100%;
+
+}
+
+.game-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 20px 0 20px;
+}
+
+.game-message h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    color: #FFF;
+}
+
+.game-message button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    color: hsl(229, 25%, 31%);
+    padding: 8px 32px;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    box-sizing: content-box;
+
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    border-radius: 50%;
+}
+
+.rock-img{
+    position: absolute;
+    bottom: 20px;
+    border: 15px solid red;
+}
+
+.paper-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 15px solid blue;
+
+}
+
+.scissors-img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 15px solid yellow;
+
+}
+
+.rock-choice{
+    border: 15px solid red;
+}
+
+.paper-choice{
+    border: 15px solid blue;
+
+}
+
+.scissors-choice{
+    border: 15px solid yellow;
+
+}

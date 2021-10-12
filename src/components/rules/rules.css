@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.rules-btn-container{
+
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    width: 100%;
+
+}
+.rules-btn{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border: 1px solid hsl(217, 16%, 45%);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 15px;
+    margin-right: 20px;
+}
+
